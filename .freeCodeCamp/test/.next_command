@@ -166,3 +166,7 @@ psql --username=freecodecamp --dbname=salon
 __vsc_prompt_cmd_original
 ./salon.sh
 ./salon.sh
+pg_dump -cC --inserts -U freecodecamp salon > salon.sql
+git init
+git remote add origin https://github.com/subhavignesh/universe-database-dump.git
+git add .
